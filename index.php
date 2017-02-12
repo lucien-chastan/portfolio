@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <title>Lucien Chastan - Portfolio</title>
@@ -21,13 +21,6 @@
         <!--permet des raccourics de selection à la jQuery et simplifie la manipulation du DOM-->
         <script src="js/DomWork.js"></script>
         
-        <!--Materialize-->
-<!--
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
--->
-        
         <!--Script Js et Css-->
         <link href="css/lucien.css" rel="stylesheet">
         
@@ -38,7 +31,7 @@
             <!--Menu-->
             <nav class="myNav" id="myNav">
                 <a href="/" class="active">Map</a>
-                <a href="contact.php">Me contacter</a>
+                <a onclick="openContact();event.stopPropagation()" >Me contacter</a>
             </nav>
             
             <!--Parcours-->
@@ -48,7 +41,7 @@
             <div class="contenu-for-map" id="htmlArbre"><?php include('popup/parcours/arbre.html');?></div>
             
             <!--JS-->
-            <div class="contenu-for-map" id="htmlGrunt"><?php include('popup/js/grunt.html');?></div>
+            <div class="contenu-for-map" id="htmlGulp"><?php include('popup/js/gulp.html');?></div>
             <div class="contenu-for-map" id="htmlChartjs"><?php include('popup/js/chartjs.html');?></div>
             <div class="contenu-for-map" id="htmlJavascript"><?php include('popup/js/javascript.html');?></div>
             <div class="contenu-for-map" id="htmlLeaflet"><?php include('popup/js/leaflet.html');?></div>
@@ -97,6 +90,25 @@
             
             <!--Carte-->    
             <div id="MyCarte" class="MyCarte"></div>
+            
+            <!--Partie contact-->
+            <div class="myContact" id="myContact" onclick="event.stopPropagation()">
+                <h3>Contact</h3>
+                <form action="php/sendMail.php" method="post" class="formContact">
+                    <p class="email">
+                        <input placeholder="Votre e-mail" type="email" name="email" id="email">
+                    </p>
+                    <p class="sujet">
+                        <input placeholder="Sujet du message" type="text" name="sujet">
+                    </p>
+                    <p class="message">
+                        <textarea name="message" placeholder="Votre message"></textarea>
+                    </p>
+                    <p class="envoyer">
+                        <button type="submit">Envoyer <img src="img/send.svg" class="sendIcon"></button>
+                    </p>
+                </form>
+            </div>
         </main>
         <script src="js/lucien.js"></script>
     </body>

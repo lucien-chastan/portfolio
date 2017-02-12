@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg11336"
+   viewBox="0 0 31.214841 42.91797"
+   height="12.112405mm"
+   width="8.8095217mm">
+  <defs
+     id="defs11338">
+    <linearGradient
+       y2="137.78625"
+       x2="379.57394"
+       y1="115.09216"
+       x1="379.57394"
+       gradientTransform="translate(-123.62393,382.19719)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient8424"
+       xlink:href="#linearGradient7557" />
+    <linearGradient
+       id="linearGradient7557">
+      <stop
+         id="stop7559"
+         offset="0"
+         style="stop-color:#f05134;stop-opacity:1;" />
+      <stop
+         id="stop7561"
+         offset="1"
+         style="stop-color:#e12d0f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata11341">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-47.24972,-62.33179)"
+     id="layer1">
+    <g
+       id="g9041"
+       transform="translate(-193.09302,-416.1652)">
+      <path
+         id="path8422"
+         d="m 255.95016,478.49699 a 15.60707,15.60707 0 0 0 -15.60742,15.60547 15.60707,15.60707 0 0 0 0.041,1.11914 c 0.83623,12.56323 15.56641,17.71422 15.56641,26.19336 0,-8.36334 14.32556,-13.49165 15.51953,-25.68555 a 15.60707,15.60707 0 0 0 0.0117,-0.11523 c 0.0447,-0.49311 0.0762,-0.99487 0.0762,-1.51172 a 15.60707,15.60707 0 0 0 -15.60742,-15.60547 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8424);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <rect
+         style="fill:none;stroke-width:4.5;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect8354"
+         width="23.602179"
+         height="23.602179"
+         x="244.30661"
+         y="483.31537" />
+      <path
+         id="path8356"
+         d="m 241.11662,498.75481 c 0.0812,0.27134 0.0821,0.58752 0.1758,0.85156 0.35,0.98553 0.8633,1.87175 1.3613,2.76562 l 7.5254,-11.31445 2.5,3.75 a 1.6414401,1.6414401 0 0 0 2.543,0.23242 l 4.8379,-4.98437 c 2.3878,6.06235 5.5762,10.0884 9.0156,12.61718 0.5022,-0.86779 1.0201,-1.72756 1.3848,-2.68164 0.0433,-0.11339 0.0448,-0.2505 0.0859,-0.36523 -3.1665,-2.47256 -6.1773,-6.33057 -8.3379,-13.03516 a 1.6414401,1.6414401 0 0 0 -1.6289,-1.13476 1.6414401,1.6414401 0 0 0 -1.1093,0.49609 l -5.1875,5.34375 -2.7403,-4.11133 a 1.6414401,1.6414401 0 0 0 -2.7324,0.002 l -7.6934,11.56836 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.282552;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </g>
+  </g>
+</svg>

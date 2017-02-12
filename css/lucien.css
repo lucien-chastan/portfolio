@@ -5,9 +5,9 @@ body {
   box-sizing: border-box;}
 
 a {
-    color : rgb(18, 157, 143);
+    color : rgb(240, 81, 52);
     text-decoration: none;}
-a:visited {color : rgb(121, 145, 143);}
+a:visited {color : rgb(168, 72, 55);}
 
 .MyCarte {
     position: fixed;
@@ -35,14 +35,12 @@ a:visited {color : rgb(121, 145, 143);}
     border-top-style: solid;
     border-width: 3px;
     transition: border-color 0.3s;
-    border-color: rgba(43, 187, 173, 0);
+    border-color: rgba(240, 81, 52, 0);
     cursor: pointer;
     padding: 4px 10px;
-    color: rgb(172, 147, 147);}
+    color: rgb(204, 204, 204);}
 
-.myNav a:hover{
-    border-color: rgba(43, 187, 173, 1);
-}
+.myNav a:hover{border-color: rgba(240, 81, 52, 1);}
 
 .active {font-weight: 600;}
 
@@ -81,10 +79,14 @@ nav ul li.active{background-color: rgba(0,0,0,0) !important;}
 .suitePop{text-align: right;}
 
 .imgPastilleLi{
+    margin-right: 5px;
     vertical-align: middle;
     height: 30px;}
 
+.listePastille{padding-left: 0px;}
+
 .listePastille li{
+    list-style: none;
     cursor: pointer;
     font-weight: 600;
     transition: opacity 0.3s;}
@@ -112,7 +114,7 @@ nav ul li.active{background-color: rgba(0,0,0,0) !important;}
 .contenu-for-map {display: none;}
 
 .btSuite {
-    color: rgb(18, 157, 143) !important;
+    color: rgb(240, 81, 52) !important;
     transition: border-width 0.08s;
     padding: 5px 7px;
     box-sizing: border-box;
@@ -125,5 +127,92 @@ nav ul li.active{background-color: rgba(0,0,0,0) !important;}
 
 .flashBarre {
     font-size: 0.72em;
-    margin-right: 1px;
-}
+    margin-right: 1px;}
+
+.imgPopup {width: 100%;}
+
+
+
+/*STYLE DU FORMULAIRE DE CONTACT*/
+.myContact {
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+    width: 450px;
+    transition: transform 0.3s;
+    transform: translateX(460px);
+    z-index: 1;
+    max-width: 90vw;
+    overflow-y: auto;
+    height: 100%;
+    background-color: rgb(255,255,255);
+    right: 0;}
+
+.myContact h3{
+    color: rgb(150,150,150);
+    letter-spacing: 0.15em;
+    text-align: center;
+    font-weight: normal;}
+
+.myContact h3:first-letter{color: rgb(240, 81, 52);}
+
+.formContact p{margin: 0px 0px 20px 0px;}
+
+.formContact input, .formContact textarea{
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    width: 100%;}
+
+.formContact input[type=text], .formContact input[type=email]{
+    box-shadow: 0px 1px 0px 0px rgb(170, 170, 170);
+    padding: 5px 5px 5px 25px;
+    transition: box-shadow 0.05s;}
+
+.formContact p[class=sujet]::before{
+    content: 'S';
+    position: absolute;
+    color: rgb(240, 81, 52);
+    padding: 5px 0px 0px 5px;
+    font-family: serif;}
+
+.formContact p[class=email]::before{
+    content: '@';
+    position: absolute;
+    color: rgb(240, 81, 52);
+    padding: 4px 0px 0px 2px;
+    font-family: serif;}
+
+.formContact input[type=text]:focus, .formContact input[type=email]:focus, .formContact textarea:focus{box-shadow: 0px 2px 0px 0px rgba(240, 81, 52, 1);}
+
+.formContact textarea{
+    font-family: inherit;
+    font-size: 0.9em;
+    box-shadow: 0px 1px 0px 0px rgb(170, 170, 170);
+    padding: 5px 5px 5px 25px;
+    resize: vertical;
+    height: 20em;}
+
+.formContact p[class=message]::before{
+    content: 'M';
+    position: absolute;
+    font-family: serif;
+    color: rgb(240, 81, 52);
+    padding: 5px 0px 0px 2px;}
+
+.formContact p[class=envoyer]{text-align: right;}
+
+.formContact button{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    cursor: pointer;}
+
+.formContact .sendIcon{
+    height: 1.2em;
+    vertical-align: sub;
+    margin-left: 5px;}

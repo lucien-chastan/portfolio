@@ -235,9 +235,9 @@
 /* visual tweaks */
 
 .leaflet-container {
-/*	background: rgb(78, 108, 118);*/
+	background: rgb(78, 108, 118);
 /*	background: rgb(255, 255, 255);*/
-	background: rgb(244, 244, 244);
+/*	background: rgb(244, 244, 244);*/
 	outline: 0;
 	}
 .leaflet-container a {

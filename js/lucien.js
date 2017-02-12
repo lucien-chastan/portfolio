@@ -1,4 +1,7 @@
-var map;
+var map,
+    statusContact = false;
+
+window.addEventListener('click', function(){if(statusContact) openContact();});
 
 (function(){
     var mapUrl = 'img/map.svg',
@@ -52,53 +55,53 @@ function addMyMarker(){
     
     //les markeurs de point
     var mkTest = L.icon({iconUrl: 'img/marqueur-test.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkGrunt = L.icon({iconUrl: 'img/grunt-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkInkscape = L.icon({iconUrl: 'img/inkscape-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkJs = L.icon({iconUrl: 'img/js-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkBootstrap = L.icon({iconUrl: 'img/bootstrap-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkBulma = L.icon({iconUrl: 'img/bulma-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkCss = L.icon({iconUrl: 'img/css-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkDrupal = L.icon({iconUrl: 'img/drupal-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkDomwork = L.icon({iconUrl: 'img/domwork-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkGimp = L.icon({iconUrl: 'img/gimp-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkGit = L.icon({iconUrl: 'img/git-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkHtml = L.icon({iconUrl: 'img/html-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkIziski = L.icon({iconUrl: 'img/iziski-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkLinux = L.icon({iconUrl: 'img/linux-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkLeaflet = L.icon({iconUrl: 'img/leaflet-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkMaterialize = L.icon({iconUrl: 'img/materialize-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkMontjoux = L.icon({iconUrl: 'img/montjoux-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkMysql = L.icon({iconUrl: 'img/mysql-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkOblyk = L.icon({iconUrl: 'img/oblyk-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkPhp = L.icon({iconUrl: 'img/php-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkSance = L.icon({iconUrl: 'img/sance-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkSnapchat = L.icon({iconUrl: 'img/snapchat-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkVba = L.icon({iconUrl: 'img/vba-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkVbnet = L.icon({iconUrl: 'img/vbnet-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkSolidworks = L.icon({iconUrl: 'img/solidworks-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkOpensource = L.icon({iconUrl: 'img/opensource-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkEscalade = L.icon({iconUrl: 'img/escalade-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkProfil = L.icon({iconUrl: 'img/profil-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkArbre = L.icon({iconUrl: 'img/arbre-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkCrittbois = L.icon({iconUrl: 'img/critt-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkChartjs = L.icon({iconUrl: 'img/chartjs-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
-        mkIut = L.icon({iconUrl: 'img/iut-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkGulp = L.icon({iconUrl: 'point/gulp-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkInkscape = L.icon({iconUrl: 'point/inkscape-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkJs = L.icon({iconUrl: 'point/js-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkBootstrap = L.icon({iconUrl: 'point/bootstrap-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkBulma = L.icon({iconUrl: 'point/bulma-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkCss = L.icon({iconUrl: 'point/css-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkDrupal = L.icon({iconUrl: 'point/drupal-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkDomwork = L.icon({iconUrl: 'point/domwork-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkGimp = L.icon({iconUrl: 'point/gimp-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkGit = L.icon({iconUrl: 'point/git-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkHtml = L.icon({iconUrl: 'point/html-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkIziski = L.icon({iconUrl: 'point/iziski-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkLinux = L.icon({iconUrl: 'point/linux-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkLeaflet = L.icon({iconUrl: 'point/leaflet-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkMaterialize = L.icon({iconUrl: 'point/materialize-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkMontjoux = L.icon({iconUrl: 'point/montjoux-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkMysql = L.icon({iconUrl: 'point/mysql-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkOblyk = L.icon({iconUrl: 'point/oblyk-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkPhp = L.icon({iconUrl: 'point/php-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkSance = L.icon({iconUrl: 'point/sance-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkSnapchat = L.icon({iconUrl: 'point/snapchat-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkVba = L.icon({iconUrl: 'point/vba-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkVbnet = L.icon({iconUrl: 'point/vbnet-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkSolidworks = L.icon({iconUrl: 'point/solidworks-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkOpensource = L.icon({iconUrl: 'point/opensource-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkEscalade = L.icon({iconUrl: 'point/escalade-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkProfil = L.icon({iconUrl: 'point/profil-point-n.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkArbre = L.icon({iconUrl: 'point/arbre-point-n.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkCrittbois = L.icon({iconUrl: 'point/critt-point-n.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkChartjs = L.icon({iconUrl: 'point/chartjs-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkIut = L.icon({iconUrl: 'point/iut-point-n.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
         fin;
         
     //graphisme
-    popInkscape = L.marker([46.51, 42.32], {icon: mkInkscape}).bindPopup(byId('htmlInkscape').innerHTML).addTo(map);
-    popGimp = L.marker([45.80, 45.88], {icon: mkGimp}).bindPopup(byId('htmlGimp').innerHTML).addTo(map);
-    popSolidworks = L.marker([46.26, 44.84], {icon: mkSolidworks}).bindPopup(byId('htmlSolidworks').innerHTML).addTo(map);
+    popInkscape = L.marker([46.22, 41.70], {icon: mkInkscape}).bindPopup(byId('htmlInkscape').innerHTML).addTo(map);
+    popGimp = L.marker([47.19, 43.66], {icon: mkGimp}).bindPopup(byId('htmlGimp').innerHTML).addTo(map);
+    popSolidworks = L.marker([45.21, 45.43], {icon: mkSolidworks}).bindPopup(byId('htmlSolidworks').innerHTML).addTo(map);
     
     //JS
-    popGrunt = L.marker([63.01, 59.66], {icon: mkGrunt}).bindPopup(byId('htmlGrunt').innerHTML).addTo(map);
-    popJavascript = L.marker([63.52, 56.21], {icon: mkJs}).bindPopup(byId('htmlJavascript').innerHTML).addTo(map);
+    popGulp = L.marker([63.01, 59.66], {icon: mkGulp}).bindPopup(byId('htmlGulp').innerHTML).addTo(map);
+    popJavascript = L.marker([63.13, 48.78], {icon: mkJs}).bindPopup(byId('htmlJavascript').innerHTML).addTo(map);
     popLeaflet = L.marker([63.20, 53.37], {icon: mkLeaflet}).bindPopup(byId('htmlLeaflet').innerHTML).addTo(map);
-    popChartjs = L.marker([64.34, 57.40], {icon: mkChartjs}).bindPopup(byId('htmlChartjs').innerHTML).addTo(map);
+    popChartjs = L.marker([63.90, 56.82], {icon: mkChartjs}).bindPopup(byId('htmlChartjs').innerHTML).addTo(map);
     
     //CSS
     popBootStrap = L.marker([55.00, 37.53], {icon: mkBootstrap}).bindPopup(byId('htmlBootstrap').innerHTML).addTo(map);
-    popBulma = L.marker([56.89, 45.66], {icon: mkBulma}).bindPopup(byId('htmlBulma').innerHTML).addTo(map);
+    popBulma = L.marker([56.63, 45.55], {icon: mkBulma}).bindPopup(byId('htmlBulma').innerHTML).addTo(map);
     popCss = L.marker([59.02, 34.96], {icon: mkCss}).bindPopup(byId('htmlCss').innerHTML).addTo(map);
     popMaterialize = L.marker([58.08, 38.58], {icon: mkMaterialize}).bindPopup(byId('htmlMaterialize').innerHTML).addTo(map);
     
@@ -113,18 +116,18 @@ function addMyMarker(){
     popLinux = L.marker([64.59, 31.07], {icon: mkLinux}).bindPopup(byId('htmlLinux').innerHTML).addTo(map);
     
     //Projet
-    popMontjoux = L.marker([58.12, 15.73], {icon: mkMontjoux}).bindPopup(byId('htmlMontjoux').innerHTML).addTo(map);
+    popMontjoux = L.marker([57.81, 16.44], {icon: mkMontjoux}).bindPopup(byId('htmlMontjoux').innerHTML).addTo(map);
     popSance = L.marker([59.45, 18.28], {icon: mkSance}).bindPopup(byId('htmlSance').innerHTML).addTo(map);
-    popOblyk = L.marker([58.00, 19.51], {icon: mkOblyk}).bindPopup(byId('htmlOblyk').innerHTML).addTo(map);
+    popOblyk = L.marker([57.84, 19.40], {icon: mkOblyk}).bindPopup(byId('htmlOblyk').innerHTML).addTo(map);
     
     //Exerience
-    popDomwork = L.marker([55.73, 20.39], {icon: mkDomwork}).bindPopup(byId('htmlDomwork').innerHTML).addTo(map);
+    popDomwork = L.marker([55.58, 21.62], {icon: mkDomwork}).bindPopup(byId('htmlDomwork').innerHTML).addTo(map);
     popIziski = L.marker([53.77, 16.52], {icon: mkIziski}).bindPopup(byId('htmlIziski').innerHTML).addTo(map);
     //popSnapchat = L.marker([55.73, 20.39], {icon: mkSnapchat}).bindPopup('<h5 class="titreInfoPoint"><img src="img/snapchat-pastille.svg" alt="logo de snapchat"> Snapchat</h5>').addTo(map);
     
     //Php et Mysql
     popPhp = L.marker([52.96, 65.39], {icon: mkPhp}).bindPopup(byId('htmlPhp').innerHTML).addTo(map);
-    popMysql = L.marker([51.07, 60.29], {icon: mkMysql}).bindPopup(byId('htmlMysql').innerHTML).addTo(map);
+    popMysql = L.marker([50.81, 61.57], {icon: mkMysql}).bindPopup(byId('htmlMysql').innerHTML).addTo(map);
     
     //Desktop
     popVba = L.marker([46.07, 61.59], {icon: mkVba}).bindPopup(byId('htmlVba').innerHTML).addTo(map);
@@ -137,7 +140,7 @@ function addMyMarker(){
     //Parcours
     L.polyline(
         [[50.93, 22.43], [51.45, 27.64], [52.67, 31.25], [55.04, 30.21]], 
-        {color: 'rgb(211,95,95)', weight : 2, dashArray : '5,5'}
+        {color: 'rgb(240,81,52)', weight : 2, dashArray : '5,5'}
     ).addTo(map);
 
     popProfil = L.marker([50.93, 22.43], {icon: mkProfil}).bindPopup(byId('htmlProfil').innerHTML).addTo(map);
@@ -147,4 +150,17 @@ function addMyMarker(){
     
     popProfil.openPopup();
     
+}
+
+
+function openContact(){
+    var myContact = document.getElementById('myContact');
+    
+    if(statusContact == false){
+        myContact.style.transform = 'translateX(0px)';
+        statusContact = true;
+    }else{
+        myContact.style.transform = 'translateX(460px)';
+        statusContact = false;
+    }
 }
