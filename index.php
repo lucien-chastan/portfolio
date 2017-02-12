@@ -30,7 +30,7 @@
             
             <!--Menu-->
             <nav class="myNav" id="myNav">
-                <a href="/" class="active">Map</a>
+                <a href="/" class="active">Portfolio</a>
                 <a onclick="openContact();event.stopPropagation()" >Me contacter</a>
             </nav>
             
@@ -94,20 +94,25 @@
             <!--Partie contact-->
             <div class="myContact" id="myContact" onclick="event.stopPropagation()">
                 <h3>Contact</h3>
-                <form action="php/sendMail.php" method="post" class="formContact">
+                <form onsubmit="sendEmail(); return false;" id="formContact" class="formContact">
+                    <div id="showErreur" class="showErreur">Message</div>
                     <p class="email">
-                        <input placeholder="Votre e-mail" type="email" name="email" id="email">
+                        <input required placeholder="Votre e-mail" type="email" name="email" id="email">
                     </p>
                     <p class="sujet">
-                        <input placeholder="Sujet du message" type="text" name="sujet">
+                        <input required placeholder="Sujet du message" type="text" name="sujet" id="sujet">
                     </p>
                     <p class="message">
-                        <textarea name="message" placeholder="Votre message"></textarea>
+                        <textarea required name="message" placeholder="Votre message" id="message"></textarea>
                     </p>
                     <p class="envoyer">
                         <button type="submit">Envoyer <img src="img/send.svg" class="sendIcon"></button>
                     </p>
                 </form>
+                <div class="loadSend" id="loadSend">
+                    <div class="loader" id="loader"></div><br>
+                    envoi en cours ...
+                </div>
             </div>
         </main>
         <script src="js/lucien.js"></script>

@@ -216,3 +216,47 @@ nav ul li.active{background-color: rgba(0,0,0,0) !important;}
     height: 1.2em;
     vertical-align: sub;
     margin-left: 5px;}
+
+.loader {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: rgb(240, 81, 52);
+    transition: background-color 0.5s;
+    border-radius: 50%;
+    transition-timing-function: ease;
+    animation-duration: 1s;
+    margin-bottom: 10px;
+    animation-name: animation-loader;
+    animation-iteration-count: infinite;}
+
+.loadSend {
+    box-sizing: border-box;
+    display: none;
+    text-align: center;
+    color: rgb(150,150,150);
+    font-size: 0.9em;
+    font-style: italic;}
+
+/*Animation du loader*/
+@keyframes animation-loader {
+    from {
+        opacity: 0.5;
+        transform: scale(1);}
+    75%{
+        opacity: 0;
+        transform: scale(1.5);}
+    to{
+        opacity: 0;
+        transform: scale(1.5);}
+}
+
+
+.showErreur {
+    background-color: rgba(255,0,0,0.5);
+    padding: 7px;
+    color: rgb(255,255,255);
+    margin: 10px 0;
+    display: none;
+    text-align: center;
+    font-size: 0.9em;}

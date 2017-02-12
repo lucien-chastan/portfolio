@@ -1,6 +1,7 @@
 var map,
     statusContact = false;
 
+//branchement des écouteurs
 window.addEventListener('click', function(){if(statusContact) openContact();});
 
 (function(){
@@ -162,5 +163,39 @@ function openContact(){
     }else{
         myContact.style.transform = 'translateX(460px)';
         statusContact = false;
+    }
+}
+
+function sendEmail(){    
+    var formContact = document.getElementById('formContact'),
+        loadSend = document.getElementById('loadSend'),
+        loader = document.getElementById('loader'),
+        showErreur = document.getElementById('showErreur'),
+        email = document.getElementById('email'),
+        sujet = document.getElementById('sujet'),
+        message = document.getElementById('message'),
+        xhr = new XMLHttpRequest(),
+        data = 'email=' + email.value + '&sujet=' + sujet.value + '&message=' + message.value;
+        
+    //affichage du loader
+    loadSend.style.height = formContact.offsetHeight + 'px';
+    loadSend.style.paddingTop = (formContact.offsetHeight / 2 - 50) + 'px';
+    formContact.style.display = 'none';
+    loadSend.style.display = 'block';
+    
+    xhr.open('POST','php/sendEmail.php');
+    xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+    xhr.send(data);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            if(xhr.responseText == 'ok'){
+                loadSend.innerHTML = 'Votre message a bien été envoyé,<br>Je vous réponds le plus rapidement possible.<p>Bonne journée !</p>';
+            }else{
+                loadSend.style.display = 'none';
+                formContact.style.display = 'block';
+                showErreur.style.display = 'block';
+                showErreur.innerHTML = xhr.responseText;
+            }
+        }
     }
 }
