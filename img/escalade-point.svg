@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg7037"
+   viewBox="0 0 31.215 42.91797"
+   width="8.8095665mm"
+   height="12.112405mm">
+  <defs
+     id="defs7043">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="709.40039"
+       x2="151.74667"
+       y1="734.15039"
+       x1="126.90667"
+       id="linearGradient6953"
+       xlink:href="#linearGradient6947" />
+    <linearGradient
+       id="linearGradient6947">
+      <stop
+         id="stop6949"
+         offset="0"
+         style="stop-color:#5fd38d;stop-opacity:1;" />
+      <stop
+         id="stop6951"
+         offset="1"
+         style="stop-color:#5fd3bc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata7039">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g7014"
+     transform="translate(-125.03167,-705.8164)">
+    <path
+       id="path6885"
+       d="m 140.63917,705.8164 a 15.60707,15.60707 0 0 0 -15.6075,15.60547 15.60707,15.60707 0 0 0 0.041,1.11914 c 0.8363,12.56323 15.5665,17.71422 15.5665,26.19336 0,-8.36334 14.3255,-13.49165 15.5195,-25.68555 a 15.60707,15.60707 0 0 0 0.012,-0.11523 c 0.045,-0.49311 0.076,-0.99487 0.076,-1.51172 a 15.60707,15.60707 0 0 0 -15.6074,-15.60547 z"
+       style="fill:url(#linearGradient6953);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 129.87281,730.30281 4.77297,-9.19239 3.44714,5.03814 7.38043,-14.58408 5.45105,20.2106 -5.95105,-14.63509 -6.77151,9.94423 -3.55606,-3.05698 z"
+       id="path6943" />
+  </g>
+</svg>
