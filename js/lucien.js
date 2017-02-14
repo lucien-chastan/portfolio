@@ -32,18 +32,7 @@ window.addEventListener('click', function(){if(statusContact) openContact();});
     
     //ajoute les markeurs sur la carte
     addMyMarker();
-    
-    //on déplace le nav dans la div leaflet
-    var myNav = document.getElementById('myNav'),
-        newNav = document.createElement('div'),
-        MyCarte = document.getElementById('MyCarte'),
-        mainContain = document.getElementById('mainContain');
-    
-    newNav.innerHTML = myNav.innerHTML;
-    newNav.className = 'myNav';
-    MyCarte.appendChild(newNav);
-    mainContain.removeChild(myNav);
-    
+        
 })();
 
 function addMyMarker(){
