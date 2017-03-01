@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html>
+    <style>
+        
+        #MyLogo {
+            animation-name: animation-logo;
+            animation-duration: 2.5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animation-logo {
+            0% {
+                stroke-dashoffset : 0;
+                stroke-dasharray: 0,315;}
+            50% {
+                stroke-dashoffset : 0;
+                stroke-dasharray: 315,0;}
+            100% {
+                stroke-dashoffset : -315;
+                stroke-dasharray: 0,315;}
+        }
+    </style>
+    <svg
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns="http://www.w3.org/2000/svg"
+         version="1.1"
+         viewBox="0 0 128.59336 91.592259"
+         height="25.849371mm"
+         width="36.291904mm">
+        <g transform="translate(-15.703315,-57.994647)">
+            <path id="MyLogo" d="m 91.341017,96.631211 -29.84158,-29.84157 -37.001129,37.001139 37.001129,37.00113 49.334853,-49.334839 24.6674,24.667409 -24.6674,24.66743 -17.507873,-17.50785" style="fill:none;fill-rule:evenodd;stroke:#ec4728;stroke-width:12.43799973;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:500,0;stroke-opacity:1" />
+        </g>
+    </svg>
+</html>
