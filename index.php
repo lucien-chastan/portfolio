@@ -32,12 +32,12 @@
             <nav class="myNav" id="myNav">
                 <a class="lienImg" href="/">
                     <img src="img/logo-lucien-blanc.svg" height="30px">
-<!--
-                    <svg viewBox="0 0 128.59336 91.592259" height="25.849371mm" width="36.291904mm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
-                        <g transform="translate(-15.703315,-57.994647)" >
-                            <path d="m 91.341017,96.631211 -29.84158,-29.84157 -37.001129,37.001139 37.001129,37.00113 49.334853,-49.334839 24.6674,24.667409 -24.6674,24.66743 -17.507873,-17.50785" style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:12.43799973;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                        </g>
-                    </svg>
+                    <!--
+<svg viewBox="0 0 128.59336 91.592259" height="25.849371mm" width="36.291904mm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g transform="translate(-15.703315,-57.994647)" >
+<path d="m 91.341017,96.631211 -29.84158,-29.84157 -37.001129,37.001139 37.001129,37.00113 49.334853,-49.334839 24.6674,24.667409 -24.6674,24.66743 -17.507873,-17.50785" style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:12.43799973;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</g>
+</svg>
 -->
                 </a>
                 <a href="/" class="active">Portfolio</a>
@@ -126,5 +126,10 @@
             </div>
         </main>
         <script src="js/lucien.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-91920135-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>
