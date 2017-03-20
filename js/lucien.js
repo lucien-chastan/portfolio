@@ -1,8 +1,9 @@
 var map,
-    statusContact = false;
+    statusOpenSideBar = false;
 
 //branchement des écouteurs
-window.addEventListener('click', function(){if(statusContact) openContact();});
+window.addEventListener('click', function(){if(statusOpenSideBar) openSideBar();});
+window.onload = function(){leverDeVoile();};
 
 (function(){
     var mapUrl = 'img/map.svg',
@@ -34,6 +35,32 @@ window.addEventListener('click', function(){if(statusContact) openContact();});
     addMyMarker();
         
 })();
+
+//anime les titres à l'ouverture du portfolio
+function titleAnimation(){
+    var title1 = document.getElementById('title-lucien-chastan'),
+        title2 = document.getElementById('title-web-full-stack');
+    
+    setTimeout(function(){
+        title1.style.transform = 'translateY(0px)';
+        title1.style.opacity = '1';
+        setTimeout(function(){
+            title2.style.opacity = '1';
+            title2.style.transform = 'translateY(0px)';
+        },150);
+    },500);
+}
+
+function leverDeVoile(){
+    var fond = document.getElementById('fond-de-chargement');
+    
+    setTimeout(function(){
+        fond.style.opacity = 0;
+        setTimeout(function(){
+            fond.style.display = 'none';
+        },550);
+    },2500);
+}
 
 function addMyMarker(){
     var iconSize = [30, 75],
@@ -87,11 +114,11 @@ function addMyMarker(){
     popGulp = L.marker([63.01, 59.66], {icon: mkGulp}).bindPopup(byId('htmlGulp').innerHTML).addTo(map);
     popJavascript = L.marker([63.13, 48.78], {icon: mkJs}).bindPopup(byId('htmlJavascript').innerHTML).addTo(map);
     popLeaflet = L.marker([63.20, 53.37], {icon: mkLeaflet}).bindPopup(byId('htmlLeaflet').innerHTML).addTo(map);
-    popChartjs = L.marker([63.90, 56.82], {icon: mkChartjs}).bindPopup(byId('htmlChartjs').innerHTML).addTo(map);
+    //popChartjs = L.marker([63.90, 56.82], {icon: mkChartjs}).bindPopup(byId('htmlChartjs').innerHTML).addTo(map);
     
     //CSS
-    popBootStrap = L.marker([55.00, 37.53], {icon: mkBootstrap}).bindPopup(byId('htmlBootstrap').innerHTML).addTo(map);
-    popBulma = L.marker([56.63, 45.55], {icon: mkBulma}).bindPopup(byId('htmlBulma').innerHTML).addTo(map);
+    //popBootStrap = L.marker([55.00, 37.53], {icon: mkBootstrap}).bindPopup(byId('htmlBootstrap').innerHTML).addTo(map);
+    //popBulma = L.marker([56.63, 45.55], {icon: mkBulma}).bindPopup(byId('htmlBulma').innerHTML).addTo(map);
     popCss = L.marker([59.02, 34.96], {icon: mkCss}).bindPopup(byId('htmlCss').innerHTML).addTo(map);
     popMaterialize = L.marker([58.08, 38.58], {icon: mkMaterialize}).bindPopup(byId('htmlMaterialize').innerHTML).addTo(map);
     
@@ -143,15 +170,21 @@ function addMyMarker(){
 }
 
 
-function openContact(){
+function openSideBar(openId){
     var myContact = document.getElementById('myContact');
-    
-    if(statusContact == false){
+        
+    if(statusOpenSideBar == false){
+        var openZone = document.getElementById(openId),
+            zoneSideBar = document.getElementsByClassName('zone-side-bar');
+        
+        for(var i = 0 ; i < zoneSideBar.length ; i++){zoneSideBar[i].style.display = 'none';}
+        openZone.style.display = 'block';
+        
         myContact.style.transform = 'translateX(0px)';
-        statusContact = true;
+        statusOpenSideBar = true;
     }else{
         myContact.style.transform = 'translateX(460px)';
-        statusContact = false;
+        statusOpenSideBar = false;
     }
 }
 
@@ -187,4 +220,15 @@ function sendEmail(){
             }
         }
     }
+}
+
+function openLoadPage(){
+    var fond = document.getElementById('fond-de-chargement'),
+        load = document.getElementById('zone-load-page');
+    
+    fond.style.display = 'block';
+    fond.style.opacity = '1';
+    
+    load.style.marginTop = 'calc(100vh /2 - 179px / 2)';
+    
 }

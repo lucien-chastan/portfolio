@@ -20,28 +20,41 @@
         <!--DomWork JS : mon framework, plus d'info sur github : https://github.com/lucien-chastan/DomWork-->
         <!--permet des raccourics de selection à la jQuery et simplifie la manipulation du DOM-->
         <script src="js/DomWork.js"></script>
-
+        
         <!--Script Js et Css-->
         <link href="css/lucien.css" rel="stylesheet">
 
     </head>
     <body>
+        
+        <div class="fond-de-chargement" id="fond-de-chargement">
+            <div id="zone-load-page">
+                <svg
+                     xmlns:svg="http://www.w3.org/2000/svg"
+                     xmlns="http://www.w3.org/2000/svg"
+                     version="1.1"
+                     viewBox="0 0 128.59336 91.592259"
+                     height="25.849371mm"
+                     width="36.291904mm">
+                    <g transform="translate(-15.703315,-57.994647)">
+                        <path id="MyLogo" d="m 91.341017,96.631211 -29.84158,-29.84157 -37.001129,37.001139 37.001129,37.00113 49.334853,-49.334839 24.6674,24.667409 -24.6674,24.66743 -17.507873,-17.50785" style="fill:none;fill-rule:evenodd;stroke:#ec4728;stroke-width:12.43799973;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:500,0;stroke-opacity:1" />
+                    </g>
+                </svg>
+                <h1 id="title-lucien-chastan">Lucien Chastan</h1>
+                <h2 id="title-web-full-stack"><span>&lsaquo;</span> Développeur Web Full-Stack <span>/&rsaquo;</span></h2>
+            </div>
+        </div>
+        
         <main id="mainContain">
 
             <!--Menu-->
             <nav class="myNav" id="myNav">
-                <a class="lienImg" href="/">
+                <a class="lienImg" onclick="popProfil.openPopup()">
                     <img src="img/logo-lucien-blanc.svg" height="30px">
-<!--
-                    <svg viewBox="0 0 128.59336 91.592259" height="25.849371mm" width="36.291904mm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
-                        <g transform="translate(-15.703315,-57.994647)" >
-                            <path d="m 91.341017,96.631211 -29.84158,-29.84157 -37.001129,37.001139 37.001129,37.00113 49.334853,-49.334839 24.6674,24.667409 -24.6674,24.66743 -17.507873,-17.50785" style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:12.43799973;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                        </g>
-                    </svg>
--->
                 </a>
-                <a href="/" class="active">Portfolio</a>
-                <a onclick="openContact();event.stopPropagation()" >Me contacter</a>
+                <a onclick="openSideBar('projet');event.stopPropagation()"><img title="Top projets" src="img/top.svg" class="icone-menu"> <span>Top projets</span></a>
+                <a onclick="popProfil.openPopup()"><img title="Portfolio" src="img/carte.svg" class="icone-menu"> <span>Portfolio</span></a>
+                <a onclick="openSideBar('contact');event.stopPropagation()" ><img title="Me contacter" src="img/contact.svg" class="icone-menu"> <span>Me contacter</span></a>
             </nav>
 
             <!--Parcours-->
@@ -52,7 +65,7 @@
 
             <!--JS-->
             <div class="contenu-for-map" id="htmlGulp"><?php include('popup/js/gulp.html');?></div>
-            <div class="contenu-for-map" id="htmlChartjs"><?php include('popup/js/chartjs.html');?></div>
+            <!--<div class="contenu-for-map" id="htmlChartjs"><?php include('popup/js/chartjs.html');?></div>-->
             <div class="contenu-for-map" id="htmlJavascript"><?php include('popup/js/javascript.html');?></div>
             <div class="contenu-for-map" id="htmlLeaflet"><?php include('popup/js/leaflet.html');?></div>
 
@@ -66,8 +79,8 @@
             <div class="contenu-for-map" id="htmlSance"><?php include('popup/projet/sance.html');?></div>
 
             <!--css-->
-            <div class="contenu-for-map" id="htmlBootstrap"><?php include('popup/css/bootstrap.html');?></div>
-            <div class="contenu-for-map" id="htmlBulma"><?php include('popup/css/bulma.html');?></div>
+            <!--<div class="contenu-for-map" id="htmlBootstrap"><?php include('popup/css/bootstrap.html');?></div>-->
+            <!--<div class="contenu-for-map" id="htmlBulma"><?php include('popup/css/bulma.html');?></div>-->
             <div class="contenu-for-map" id="htmlCss"><?php include('popup/css/css.html');?></div>
             <div class="contenu-for-map" id="htmlMaterialize"><?php include('popup/css/materialize.html');?></div>
 
@@ -103,28 +116,44 @@
 
             <!--Partie contact-->
             <div class="myContact" id="myContact" onclick="event.stopPropagation()">
-                <h3>Contact</h3>
-                <form onsubmit="sendEmail(); return false;" id="formContact" class="formContact">
-                    <div id="showErreur" class="showErreur">Message</div>
-                    <p class="email">
-                        <input required placeholder="Votre e-mail" type="email" name="email" id="email">
-                    </p>
-                    <p class="sujet">
-                        <input required placeholder="Sujet du message" type="text" name="sujet" id="sujet">
-                    </p>
-                    <p class="message">
-                        <textarea required name="message" placeholder="Votre message" id="message"></textarea>
-                    </p>
-                    <p class="envoyer">
-                        <button type="submit">Envoyer <img src="img/send.svg" class="sendIcon"></button>
-                    </p>
-                </form>
-                <div class="loadSend" id="loadSend">
-                    <div class="loader" id="loader"></div><br>
-                    envoi en cours ...
+                <div id="contact" class="zone-side-bar">
+                    <h3>Contact</h3>
+                    <form onsubmit="sendEmail(); return false;" id="formContact" class="formContact">
+                        <div id="showErreur" class="showErreur">Message</div>
+                        <p class="email">
+                            <input required placeholder="Votre e-mail" type="email" name="email" id="email">
+                        </p>
+                        <p class="sujet">
+                            <input required placeholder="Sujet du message" type="text" name="sujet" id="sujet">
+                        </p>
+                        <p class="message">
+                            <textarea required name="message" placeholder="Votre message" id="message"></textarea>
+                        </p>
+                        <p class="envoyer">
+                            <button type="submit">Envoyer <img src="img/send.svg" class="sendIcon"></button>
+                        </p>
+                    </form>
+                    <div class="loadSend" id="loadSend">
+                        <div class="loader" id="loader"></div><br>
+                        envoi en cours ...
+                    </div>
+                </div>
+                
+                <div id="projet" class="zone-side-bar">
+                    <h3>Le top de mes projets</h3>
+                    <p class="intro-top-projet">Si parmis mes projets web, je devais en séléctionner que quelqu'un :</p>
+                    <div class="top-projet">
+                        <?php include('popup/projet/oblyk.html');?>
+                    </div>
                 </div>
             </div>
         </main>
         <script src="js/lucien.js"></script>
+        <script>
+            
+            //animation des titres au chargement des pages
+            titleAnimation();
+            
+        </script>
     </body>
 </html>
