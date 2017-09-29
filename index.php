@@ -10,7 +10,7 @@
         <meta property="og:title" content="Lucien Chastan | Développeur Web"/>
         <meta property="og:description" content="Portfolio de Lucien chastan développeur Web full-stack, javascript, php, html/css"/>
         <meta property="og:url" content="http://www.lucien-chastan.fr" />
-        <meta property="og:image" content="http://www.mon-lien.fr" />
+        <meta property="og:image" content="http://www.lucien-chastan.fr/img/lucien-chastan-developpeur-web-full-stack.jpg" />
         <meta property="og:type" content="website"/>
 
         <!--Leaflet-->
@@ -59,6 +59,7 @@
 
             <!--Parcours-->
             <div class="contenu-for-map" id="htmlProfil"><?php include('popup/parcours/profil.html');?></div>
+            <div class="contenu-for-map" id="htmlSearch"><?php include('popup/parcours/search.html');?></div>
             <div class="contenu-for-map" id="htmlMiw"><?php include('popup/parcours/miw.html');?></div>
             <div class="contenu-for-map" id="htmlCritt"><?php include('popup/parcours/critt.html');?></div>
             <div class="contenu-for-map" id="htmlArbre"><?php include('popup/parcours/arbre.html');?></div>
@@ -77,6 +78,7 @@
             <div class="contenu-for-map" id="htmlMontjoux"><?php include('popup/projet/montjoux.html');?></div>
             <div class="contenu-for-map" id="htmlOblyk"><?php include('popup/projet/oblyk.html');?></div>
             <div class="contenu-for-map" id="htmlSance"><?php include('popup/projet/sance.html');?></div>
+            <div class="contenu-for-map" id="htmlCrittherm"><?php include('popup/projet/crittherm.html');?></div>
 
             <!--css-->
             <!--<div class="contenu-for-map" id="htmlBootstrap"><?php include('popup/css/bootstrap.html');?></div>-->
@@ -107,6 +109,7 @@
             <!--Php et MySql-->
             <div class="contenu-for-map" id="htmlMysql"><?php include('popup/php_mysql/mysql.html');?></div>
             <div class="contenu-for-map" id="htmlPhp"><?php include('popup/php_mysql/php.html');?></div>
+            <div class="contenu-for-map" id="htmlLaravel"><?php include('popup/php_mysql/laravel.html');?></div>
 
             <!--CMS-->
             <div class="contenu-for-map" id="htmlDrupal"><?php include('popup/cms/drupal.html');?></div>

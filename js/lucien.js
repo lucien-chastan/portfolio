@@ -100,9 +100,12 @@ function addMyMarker(){
         mkEscalade = L.icon({iconUrl: 'point/escalade-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
         mkProfil = L.icon({iconUrl: 'point/profil-point-n.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
         mkArbre = L.icon({iconUrl: 'point/arbre-point-n.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkSearch = L.icon({iconUrl: 'point/search-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
         mkCrittbois = L.icon({iconUrl: 'point/critt-point-n.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
         mkChartjs = L.icon({iconUrl: 'point/chartjs-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
         mkIut = L.icon({iconUrl: 'point/iut-point-n.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkLaravel = L.icon({iconUrl: 'point/laravel-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
+        mkCrittherm = L.icon({iconUrl: 'point/crittherm-point.svg',iconSize: iconSize, iconAnchor: iconAnchor, popupAnchor: popupAnchor, shadowUrl: shadowUrl, shadowSize: shadowSize, shadowAnchor: shadowAnchor}),
         fin;
         
     //graphisme
@@ -133,10 +136,11 @@ function addMyMarker(){
     popLinux = L.marker([64.59, 31.07], {icon: mkLinux}).bindPopup(byId('htmlLinux').innerHTML).addTo(map);
     
     //Projet
-    popMontjoux = L.marker([57.81, 16.44], {icon: mkMontjoux}).bindPopup(byId('htmlMontjoux').innerHTML).addTo(map);
-    popSance = L.marker([59.45, 18.28], {icon: mkSance}).bindPopup(byId('htmlSance').innerHTML).addTo(map);
+    popMontjoux = L.marker([57.27, 16.80], {icon: mkMontjoux}).bindPopup(byId('htmlMontjoux').innerHTML).addTo(map);
+    popSance = L.marker([59.48, 17.62], {icon: mkSance}).bindPopup(byId('htmlSance').innerHTML).addTo(map);
     popOblyk = L.marker([57.84, 19.40], {icon: mkOblyk}).bindPopup(byId('htmlOblyk').innerHTML).addTo(map);
-    
+    popCrittherm = L.marker([58.63, 15.03], {icon: mkCrittherm}).bindPopup(byId('htmlCrittherm').innerHTML).addTo(map);
+
     //Exerience
     popDomwork = L.marker([55.58, 21.62], {icon: mkDomwork}).bindPopup(byId('htmlDomwork').innerHTML).addTo(map);
     popIziski = L.marker([53.77, 16.52], {icon: mkIziski}).bindPopup(byId('htmlIziski').innerHTML).addTo(map);
@@ -144,7 +148,8 @@ function addMyMarker(){
     
     //Php et Mysql
     popPhp = L.marker([52.96, 65.39], {icon: mkPhp}).bindPopup(byId('htmlPhp').innerHTML).addTo(map);
-    popMysql = L.marker([50.81, 61.57], {icon: mkMysql}).bindPopup(byId('htmlMysql').innerHTML).addTo(map);
+    popLaravel = L.marker([51.69, 63.08], {icon: mkLaravel}).bindPopup(byId('htmlLaravel').innerHTML).addTo(map);
+    popMysql = L.marker([51.18, 60.03], {icon: mkMysql}).bindPopup(byId('htmlMysql').innerHTML).addTo(map);
     
     //Desktop
     popVba = L.marker([46.07, 61.59], {icon: mkVba}).bindPopup(byId('htmlVba').innerHTML).addTo(map);
@@ -156,7 +161,7 @@ function addMyMarker(){
     
     //Parcours
     L.polyline(
-        [[50.93, 22.43], [51.45, 27.64], [52.67, 31.25], [55.04, 30.21]], 
+        [[50.93, 22.43], [51.45, 27.64], [52.67, 31.25], [55.04, 30.21], [55.80, 27.88]],
         {color: 'rgb(240,81,52)', weight : 2, dashArray : '5,5'}
     ).addTo(map);
 
@@ -164,7 +169,8 @@ function addMyMarker(){
     popArbre = L.marker([51.45, 27.64], {icon: mkArbre}).bindPopup(byId('htmlArbre').innerHTML).addTo(map);
     popCritt = L.marker([52.67, 31.25], {icon: mkCrittbois}).bindPopup(byId('htmlCritt').innerHTML).addTo(map);
     popMiw = L.marker([55.04, 30.21], {icon: mkIut}).bindPopup(byId('htmlMiw').innerHTML).addTo(map);
-    
+    popSearch = L.marker([55.80, 27.88], {icon: mkSearch}).bindPopup(byId('htmlSearch').innerHTML).addTo(map);
+
     popProfil.openPopup();
     
 }

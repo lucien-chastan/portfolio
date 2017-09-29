@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03f7aa98-b117-4643-8d26-90969ac2e2d5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img-full/capture_iziski.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img-full/capture_montjoux.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img-full/capture_oblyk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img-full/capture_sance.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img-full/img_profil.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/lucien.fr.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carte.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/contact.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/top.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/popup/parcours/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/popup/php_mysql/laravel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/popup/projet/crittherm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/capture_oblyk.jpg" afterPath="$PROJECT_DIR$/img/capture_oblyk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/oblyk-pastille.svg" afterPath="$PROJECT_DIR$/img/oblyk-pastille.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/oblyk-point.svg" afterPath="$PROJECT_DIR$/img/oblyk-point.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lucien.js" afterPath="$PROJECT_DIR$/js/lucien.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/point/oblyk-pastille.svg" afterPath="$PROJECT_DIR$/point/oblyk-pastille.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/point/oblyk-point.svg" afterPath="$PROJECT_DIR$/point/oblyk-point.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/cms/drupal.html" afterPath="$PROJECT_DIR$/popup/cms/drupal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/css/bootstrap.html" afterPath="$PROJECT_DIR$/popup/css/bootstrap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/css/bulma.html" afterPath="$PROJECT_DIR$/popup/css/bulma.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/css/css.html" afterPath="$PROJECT_DIR$/popup/css/css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/css/materialize.html" afterPath="$PROJECT_DIR$/popup/css/materialize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/desktop/vba.html" afterPath="$PROJECT_DIR$/popup/desktop/vba.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/desktop/vbnet.html" afterPath="$PROJECT_DIR$/popup/desktop/vbnet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/graphisme/gimp.html" afterPath="$PROJECT_DIR$/popup/graphisme/gimp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/graphisme/inkscape.html" afterPath="$PROJECT_DIR$/popup/graphisme/inkscape.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/graphisme/solidworks.html" afterPath="$PROJECT_DIR$/popup/graphisme/solidworks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/html/html.html" afterPath="$PROJECT_DIR$/popup/html/html.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/parcours/miw.html" afterPath="$PROJECT_DIR$/popup/parcours/miw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/php_mysql/mysql.html" afterPath="$PROJECT_DIR$/popup/php_mysql/mysql.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/php_mysql/php.html" afterPath="$PROJECT_DIR$/popup/php_mysql/php.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popup/projet/oblyk.html" afterPath="$PROJECT_DIR$/popup/projet/oblyk.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/maquette/logo.svg" afterPath="$PROJECT_DIR$/portfolio/maquette/logo.svg" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="bootstrap.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup/css/bootstrap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="materialize.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup/css/materialize.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vba.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup/desktop/vba.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vbnet.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup/desktop/vbnet.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="domwork.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup/experience/domwork.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gimp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup/graphisme/gimp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inkscape.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup/graphisme/inkscape.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solidworks.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup/graphisme/solidworks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup/html/html.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chartjs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/popup/js/chartjs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/popup/parcours/miw.html" />
+        <option value="$PROJECT_DIR$/popup/parcours/search.html" />
+        <option value="$PROJECT_DIR$/popup/projet/oblyk.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/lucien.js" />
+        <option value="$PROJECT_DIR$/popup/projet/crittherm.html" />
+        <option value="$PROJECT_DIR$/popup/php_mysql/laravel.html" />
+        <option value="$PROJECT_DIR$/popup/php_mysql/mysql.html" />
+        <option value="$PROJECT_DIR$/popup/php_mysql/php.html" />
+        <option value="$PROJECT_DIR$/popup/cms/drupal.html" />
+        <option value="$PROJECT_DIR$/popup/css/bootstrap.html" />
+        <option value="$PROJECT_DIR$/popup/css/bulma.html" />
+        <option value="$PROJECT_DIR$/popup/css/css.html" />
+        <option value="$PROJECT_DIR$/popup/desktop/vba.html" />
+        <option value="$PROJECT_DIR$/popup/desktop/vbnet.html" />
+        <option value="$PROJECT_DIR$/popup/graphisme/gimp.html" />
+        <option value="$PROJECT_DIR$/popup/css/materialize.html" />
+        <option value="$PROJECT_DIR$/popup/graphisme/inkscape.html" />
+        <option value="$PROJECT_DIR$/popup/graphisme/solidworks.html" />
+        <option value="$PROJECT_DIR$/popup/html/html.html" />
+        <option value="$PROJECT_DIR$/popup/js/chartjs.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1356" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="desktop" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="experience" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="graphisme" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php_mysql" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lucien.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucien.fr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="projet" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/popup/projet" />
+      <recent name="$PROJECT_DIR$/popup/php_mysql" />
+      <recent name="$PROJECT_DIR$/popup/parcours" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03f7aa98-b117-4643-8d26-90969ac2e2d5" name="Default" comment="" />
+      <created>1506688225404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506688225404</updated>
+      <workItem from="1506688226836" duration="9002000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9002000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16691957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/popup/parcours/miw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/capture_oblyk.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/parcours/critt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="80" column="102" lean-forward="false" selection-start-line="80" selection-start-column="102" selection-end-line="80" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lucien.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="146" column="15" lean-forward="false" selection-start-line="146" selection-start-column="15" selection-end-line="146" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/parcours/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/projet/oblyk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/projet/crittherm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/php_mysql/mysql.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/php_mysql/laravel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="85" lean-forward="true" selection-start-line="0" selection-start-column="85" selection-end-line="0" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/css/bulma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/php_mysql/php.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/cms/drupal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="95" lean-forward="true" selection-start-line="0" selection-start-column="95" selection-end-line="0" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/css/css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/css/bootstrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/graphisme/gimp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/experience/domwork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/desktop/vbnet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/desktop/vba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/css/materialize.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/graphisme/inkscape.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/graphisme/solidworks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/html/html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup/js/chartjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

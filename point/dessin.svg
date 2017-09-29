@@ -10,36 +10,36 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="8.8095217mm"
-   height="12.112405mm"
-   viewBox="0 0 8.8095217 12.112405"
+   width="8.8095179mm"
+   height="8.8095179mm"
+   viewBox="0 0 8.8095179 8.8095179"
    version="1.1"
-   id="svg7962"
+   id="svg7644"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="oblyk-point.svg">
+   sodipodi:docname="dessin.svg">
   <defs
-     id="defs7956">
+     id="defs7638">
     <linearGradient
-       gradientTransform="translate(-203.62366,382.19719)"
        inkscape:collect="always"
-       xlink:href="#linearGradient7557"
-       id="linearGradient7600-3-9"
+       xlink:href="#linearGradient7525"
+       id="linearGradient6790"
        gradientUnits="userSpaceOnUse"
-       x1="379.57394"
-       y1="115.09216"
-       x2="379.57394"
-       y2="137.78625" />
+       x1="1114.5098"
+       y1="-43.723591"
+       x2="1090.3535"
+       y2="-28.692886"
+       gradientTransform="translate(-1067.9693,587.52645)" />
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient7557">
+       id="linearGradient7525"
+       inkscape:collect="always">
       <stop
-         style="stop-color:#f05134;stop-opacity:1;"
+         id="stop7521"
          offset="0"
-         id="stop7559" />
+         style="stop-color:#ec4728;stop-opacity:1" />
       <stop
-         style="stop-color:#e12d0f;stop-opacity:1"
+         id="stop7523"
          offset="1"
-         id="stop7561" />
+         style="stop-color:#ba3820;stop-opacity:1" />
     </linearGradient>
   </defs>
   <sodipodi:namedview
@@ -49,9 +49,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="102.3622"
-     inkscape:cy="-134.25327"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="141.72455"
+     inkscape:cy="-27.314573"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -65,7 +65,7 @@
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
-     id="metadata7959">
+     id="metadata7641">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -80,24 +80,25 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-78.750001,-101.19975)">
+     transform="translate(-114.27976,-126.28572)">
     <g
-       transform="matrix(0.28222223,0,0,0.28222223,33.497642,-33.842738)"
-       id="g7542">
-      <path
-         inkscape:connector-curvature="0"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient7600-3-9);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         d="m 175.95042,478.49699 a 15.60707,15.60707 0 0 0 -15.60742,15.60547 15.60707,15.60707 0 0 0 0.041,1.11914 c 0.83623,12.56323 15.56641,17.71422 15.56641,26.19336 0,-8.36334 14.32556,-13.49165 15.51953,-25.68555 a 15.60707,15.60707 0 0 0 0.0117,-0.11523 c 0.0447,-0.49311 0.0762,-0.99487 0.0762,-1.51172 a 15.60707,15.60707 0 0 0 -15.60742,-15.60547 z"
-         id="path6729-2-7" />
+       transform="matrix(0.28222223,0,0,0.28222223,108.53852,-24.614467)"
+       id="g7557">
+      <circle
+         r="15.607413"
+         cy="550.29309"
+         cx="35.950401"
+         id="circle6546"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6790);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
       <g
-         id="g7533"
-         transform="matrix(0.23242607,0,0,0.23242607,84.983533,409.45431)"
+         id="g7519"
+         transform="matrix(0.23242607,0,0,0.23242607,-55.016486,466.20955)"
          style="fill:#ffffff">
         <path
            sodipodi:nodetypes="cccccccccccc"
            style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="m 396.05664,314.61719 -28.34332,41.7539 33.28263,34.39055 9.65078,-13.23636 12.80994,13.23636 9.65086,-13.23635 16.91395,1e-4 z M 379.44727,377.52539 352.80859,350 332.73828,377.52539 Z"
-           id="path7531"
+           id="path7517"
            inkscape:connector-curvature="0" />
       </g>
     </g>
