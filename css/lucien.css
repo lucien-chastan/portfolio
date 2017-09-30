@@ -10,6 +10,12 @@ a {
     text-decoration: none;}
 a:visited {color : rgb(168, 72, 55);}
 
+.text-center {text-align: center}
+.para-lien-contact img{
+    height: 2em;
+    margin: 0 0.5em;
+}
+
 /*chargement de la page*/
 #MyLogo {
     animation-name: animation-logo;

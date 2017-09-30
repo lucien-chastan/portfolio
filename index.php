@@ -53,7 +53,7 @@
                     <img src="img/logo-lucien-blanc.svg" height="30px">
                 </a>
                 <a onclick="openSideBar('projet');event.stopPropagation()"><img title="Top projets" src="img/top.svg" class="icone-menu"> <span>Top projets</span></a>
-                <a onclick="popProfil.openPopup()"><img title="Portfolio" src="img/carte.svg" class="icone-menu"> <span>Portfolio</span></a>
+                <a onclick="popProfil.openPopup()"><img title="Portfolio" src="/img/carte.svg" class="icone-menu"> <span>Parcours</span></a>
                 <a onclick="openSideBar('contact');event.stopPropagation()" ><img title="Me contacter" src="img/contact.svg" class="icone-menu"> <span>Me contacter</span></a>
             </nav>
 
@@ -140,6 +140,13 @@
                         <div class="loader" id="loader"></div><br>
                         envoi en cours ...
                     </div>
+                    <div class="text-center">
+                        <p class="para-lien-contact">
+                            <a target="_blank" href="https://github.com/lucien-chastan"><img src="/img/logo_github.svg" alt="logo de github"></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/lucien-chastan-31599a150/"><img src="/img/logo_linkedin.svg" alt="logo de linkedin"></a>
+                        </p>
+                    </div>
+
                 </div>
                 
                 <div id="projet" class="zone-side-bar">
@@ -147,6 +154,9 @@
                     <p class="intro-top-projet">Si parmis mes projets web, je devais en séléctionner que quelqu'un :</p>
                     <div class="top-projet">
                         <?php include('popup/projet/oblyk.html');?>
+                    </div>
+                    <div class="top-projet">
+                        <?php include('popup/projet/crittherm.html');?>
                     </div>
                 </div>
             </div>

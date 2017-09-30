@@ -161,7 +161,7 @@ function addMyMarker(){
     
     //Parcours
     L.polyline(
-        [[50.93, 22.43], [51.45, 27.64], [52.67, 31.25], [55.04, 30.21], [55.80, 27.88]],
+        [[50.93, 22.43], [51.45, 27.64], [52.67, 31.25], [55.04, 30.21], [56.19, 27.22]],
         {color: 'rgb(240,81,52)', weight : 2, dashArray : '5,5'}
     ).addTo(map);
 
@@ -169,7 +169,7 @@ function addMyMarker(){
     popArbre = L.marker([51.45, 27.64], {icon: mkArbre}).bindPopup(byId('htmlArbre').innerHTML).addTo(map);
     popCritt = L.marker([52.67, 31.25], {icon: mkCrittbois}).bindPopup(byId('htmlCritt').innerHTML).addTo(map);
     popMiw = L.marker([55.04, 30.21], {icon: mkIut}).bindPopup(byId('htmlMiw').innerHTML).addTo(map);
-    popSearch = L.marker([55.80, 27.88], {icon: mkSearch}).bindPopup(byId('htmlSearch').innerHTML).addTo(map);
+    popSearch = L.marker([56.19, 27.22], {icon: mkSearch}).bindPopup(byId('htmlSearch').innerHTML).addTo(map);
 
     popProfil.openPopup();
     
