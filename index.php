@@ -151,7 +151,7 @@
                 
                 <div id="projet" class="zone-side-bar">
                     <h3>Le top de mes projets</h3>
-                    <p class="intro-top-projet">Si parmis mes projets web, je devais en séléctionner que quelqu'un :</p>
+                    <p class="intro-top-projet">Si parmis mes projets web, je devais en séléctionner que quelques-un :</p>
                     <div class="top-projet">
                         <?php include('popup/projet/oblyk.html');?>
                     </div>
