@@ -52,6 +52,7 @@
                 <a class="lienImg" onclick="popProfil.openPopup()">
                     <img src="img/logo-lucien-blanc.svg" height="30px">
                 </a>
+                <a target="_blank" href="/pdf/cv-lucien-chastan-2017.pdf"><img title="CV" src="/img/cv.svg" class="icone-menu"> <span>CV</span></a>
                 <a onclick="openSideBar('projet');event.stopPropagation()"><img title="Top projets" src="img/top.svg" class="icone-menu"> <span>Top projets</span></a>
                 <a onclick="popProfil.openPopup()"><img title="Portfolio" src="/img/carte.svg" class="icone-menu"> <span>Parcours</span></a>
                 <a onclick="openSideBar('contact');event.stopPropagation()" ><img title="Me contacter" src="img/contact.svg" class="icone-menu"> <span>Me contacter</span></a>
@@ -151,7 +152,7 @@
                 
                 <div id="projet" class="zone-side-bar">
                     <h3>Le top de mes projets</h3>
-                    <p class="intro-top-projet">Si parmis mes projets web, je devais en séléctionner que quelques-un :</p>
+                    <p class="intro-top-projet">Si parmis mes projets web, je devais en séléctionner que quelques-uns :</p>
                     <div class="top-projet">
                         <?php include('popup/projet/oblyk.html');?>
                     </div>
